@@ -1,0 +1,43 @@
+.todoapp {
+	&.todoapp-appear {
+		transition: transform 500ms;
+		transform: scale(0);
+
+		&.todoapp-appear-active {
+			transform: scale(1);
+		}
+	}
+}
+
+h1 {
+	&.logo-appear {
+		transition: transform 300ms;
+		overflow: hidden;
+		height: 0;
+
+		&.logo-appear-active {
+			height: 100px
+		}
+	}	
+}
+
+.todo-enter, .todo-leave {
+	transition: all 500ms;
+	overflow: hidden;
+}
+
+.todo-enter {
+	height: 0;
+
+	&.todo-enter-active {
+		height: 59px;
+	}
+}
+
+.todo-leave {
+	height: 59px;
+
+	&.todo-leave-active {
+		height: 0;
+	}
+}

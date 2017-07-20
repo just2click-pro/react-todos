@@ -1,0 +1,11 @@
+export const ADD_TODO = "addTodo";
+export const REMOVE_TODO = "removeTodo";
+export const SET_TODO_COMPLETED = "setTodoCompleted";
+export const SET_ALL_TODO_COMPLETED = "setAllTodoCompleted";
+export const UPDATE_TODO_LABEL = "updateTodoLabel";
+export const CLEAR_COMPLETED = "clearCompleted";
+export const SHOW_ALL = "showAll";
+export const SHOW_ACTIVE = "showActive";
+export const SHOW_COMPLETED = "showCompleted";
+export const ERROR_EMPTY = "errorEmpty";
+export const CLEAR_ERROR = "clearError";
